@@ -1,0 +1,30 @@
+.login {
+	width: 500px;
+	height: 500px;
+	border: 2px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(10px);
+	.input {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		input {
+			width: 350px;
+			height: 40px;
+			border-radius: 30px;
+			border: none;
+			backdrop-filter: blur(10px);
+		}
+		h2 {
+			display: flex;
+			justify-content: center;
+		}
+		button {
+			margin-left: 70px;
+			width: 200px;
+			backdrop-filter: blur(10px);
+		}
+	}
+}
